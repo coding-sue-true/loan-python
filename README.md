@@ -1,5 +1,6 @@
 # loan-python
 
+Assignment from Week4 - Introduction to Programming Using Python, UTAx: CSE1309x - www.edX.org
 ## Part 1: Calculate monthly payments for a loan
 
 Write a function that calculates and returns the monthly payments for a loan. This function accepts three parameters in the exact order (principal, annual_interest_rate, duration):
