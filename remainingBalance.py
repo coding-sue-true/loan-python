@@ -1,9 +1,9 @@
-def calculateRemainingBalance(principal, annual_interest_rate, duration, number_of_payments):
-    r = ((annual_interest_rate/100)/12)
+def calculateRemainingBalance(principal, annualInterestRate, duration, numberOfPayments):
+    r = annualInterestRate/100/12
     n = duration * 12
-    p = number_of_payments
-    if annual_interest_rate == 0:
-        return principal-number_of_payments*(principal/n)
+    p = numberOfPayments
+    if annualInterestRate == 0:
+        return principal-numberOfPayments*(principal/n)
     top = (((1+r)**n) - ((1+r)**p))
     bottom = (((1+r)**n) - 1)
     remainingBalance = principal * (top/bottom)
